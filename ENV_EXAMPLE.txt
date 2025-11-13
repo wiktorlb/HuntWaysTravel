@@ -1,0 +1,11 @@
+SMTP_HOST=smtp.example.com
+SMTP_PORT=587
+SMTP_SECURE=false
+SMTP_USER=username@example.com
+SMTP_PASS=your_password
+MAIL_FROM="TripForm <username@example.com>"
+RECIPIENT_EMAIL=biuro@example.com
+SEND_CONFIRMATION=false
+PORT=3001
+
+
