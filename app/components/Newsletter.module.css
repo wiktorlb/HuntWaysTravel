@@ -1,0 +1,72 @@
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputGroup {
+  display: flex;
+  gap: 10px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px 15px;
+  border: 1px solid #444;
+  border-radius: 6px;
+  background: #2a2a2a;
+  color: #fff;
+  font-size: 0.95rem;
+}
+
+.input::placeholder {
+  color: #999;
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.button {
+  padding: 10px 20px;
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  white-space: nowrap;
+}
+
+.button:hover {
+  background: var(--primary-dark);
+}
+
+.message {
+  font-size: 0.9rem;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.success {
+  background: rgba(76, 175, 80, 0.2);
+  color: #4caf50;
+}
+
+.error {
+  background: rgba(244, 67, 54, 0.2);
+  color: #f44336;
+}
+
+@media (max-width: 480px) {
+  .inputGroup {
+    flex-direction: column;
+  }
+
+  .button {
+    width: 100%;
+  }
+}
+
